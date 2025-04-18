@@ -2,6 +2,12 @@
 
 A sleek Flutter weather application with real-time forecasts, interactive Lottie animations, and AI-powered alerts. Built with Clean Architecture and Bloc state management.
 
+# 📱 Screenshots
+
+<div align="center">
+  <img src="screens/1.png" width="30%" alt="Welcome Page with Lottie animation"/>
+  <img src="screens/2.png" width="30%" alt="Weather Page with forecast data"/>
+</div>
 
 ## Features
 - **Real-time Weather Data**: Fetch current conditions for any city.
