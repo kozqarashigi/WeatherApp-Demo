@@ -1,16 +1,23 @@
-# midterm_project
+#  WeatherApp (demo)
 
-A new Flutter project.
+A sleek Flutter weather application with real-time forecasts, interactive Lottie animations, and AI-powered alerts. Built with Clean Architecture and Bloc state management.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features
+- **Real-time Weather Data**: Fetch current conditions for any city.
+- **Dynamic Animations**: Lottie-powered weather visuals (sun, rain, etc.).
+- **Smart Alerts**: Threshold-based notifications (e.g., "Carry an umbrella if rain >60%").
+- **Clean Architecture**: Separated UI, logic, and data layers.
+- **Offline Support**: Cached weather data for 1 hour.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- **Flutter**: 3.16+ (Null Safety)
+- **State Management**: Bloc/Cubit
+- **API**: [OpenWeatherMap](https://openweathermap.org)
+- **Animations**: Lottie (`lottie: ^2.7.0`)
+- **Networking**: Dio (`dio: ^5.3.0`)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kozqarashigi/weatherapp-demo.git
